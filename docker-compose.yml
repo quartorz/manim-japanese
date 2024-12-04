@@ -1,0 +1,9 @@
+services:
+  manim-japanese:
+    image: manim-japanese
+    container_name: manim-japanese
+    build: .
+    volumes:
+      - ./manim:/manim
+    stdin_open: true
+    tty: true
